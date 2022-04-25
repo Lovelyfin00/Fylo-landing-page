@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+/* Styling nav section */
+.secondary-background{
+    background-color:hsl(217, 28%, 15%);
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.header-padding{
+    padding-top: 20px;
+}
+.flex{
+    display: flex;
+}
+.flex-align{
+    justify-content: space-between;
+}
+.logo{
+    width: 50%;
+    height: 50%;
+}
+.logo-img{
+    width: 50%;
+    height: 50%;
+}
+.nav-links ul li{
+    list-style: none;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.nav-links a{
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: hsl(0, 0%, 80%);
+}
+.nav-links a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+/* Styling secure files section */
+.main-background{
+    background-color: hsl(218, 28%, 13%);
+}
+.img-div{
+    text-align: center;
+    margin:auto;
+    padding-top: 20px;
+    max-width: 90%;
+    max-height: 90%;
+}
+.img-flow{
+    max-width: 85%;
+    max-height: 85%;
+}
+.bg-img{
+    background: url("../img/bg-curvy-mobile.svg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img-text{
+    padding-top: 70px;
+    text-align: center;
+    margin:0 auto 0 auto;
+    width: 80%;
+}
+.img-text h2{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+.img-text p{
+    color: hsl(0, 0%, 80%);
+}
+.text-margin{
+    margin-bottom: 20px;
+}
+.started-div{
+    margin-top: 30px;
+    padding-bottom: 120px;
+}
+.started-btn{
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 60px;
+    text-decoration: none;
+    background: -webkit-linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    color: white;
+    border-radius: 25px;
+}
+.started-btn:hover{
+    background: hsl(176, 68%, 64%);
+}
+
+/* Styling access files section */
+.flex-direction{
+    flex-direction: column;
+}
+.access-files{
+    margin:0 auto 0 auto;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 100px;
+}
+.padding-bottom{
+    padding-bottom: 160px;
+}
+.h4-style{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding-top: 30px;
+}
+.p-style{
+    padding-top: 10px;
+    color: hsl(0, 0%, 80%);
+}
+
+.how-link{
+    padding-top: 10px;
+}
+.fylo-works{
+    text-decoration: none;
+    color: hsl(176, 68%, 64%);
+    border-bottom: 2px solid hsl(176, 68%, 64%);
+}
+.fylo-works:hover{
+    color: white;
+    border-bottom: 2px solid white;
+}
+.arrow{
+    margin-bottom: -1%;
+}
+
+/* Customer review */
+
+.quote-img{
+    display: flex;
+    margin-left: 12%;
+}
+.review-text{
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    background-color:hsl(219, 30%, 18%);
+    color:hsl(0, 0%, 80%);
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+.customer-bio{
+    margin-top: 15px;
+}
+.bio
+.customerImg-div{
+    display: flex;
+    width: 20%;
+    height: 20%;
+    align-items: center;
+    justify-content: flex-start;
+}
+.customer-img{
+    width: 60%;
+    border-radius: 50%;
+}
+.customer-name{
+    color: white;
+    font-size: 16px;
+}
+
+/* Email section */
+#early-access{
+    padding-top: 40%;
+    padding-bottom: -50%;
+}
+
+.email-card{
+    text-align: center;
+    padding: 25px;
+    width: 90%;
+    height: 90%;
+    background-color: hsl(217, 28%, 15%);
+    margin: auto;
+}
+.email-card h4{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+.email-card p{
+    color:hsl(0, 0%, 80%);
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+input[type="email"]{
+    border: none;
+    padding: 15px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+.submit-btn{
+    border: none;
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background: -webkit-linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    color: white;
+}
