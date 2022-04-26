@@ -226,6 +226,9 @@ input[type="email"]{
     border-radius: 50px;
     margin-bottom: 20px;
 }
+input[type="email"]:focus{
+    outline: none;
+}
 .submit-btn{
     border: none;
     padding: 15px;
@@ -332,10 +335,13 @@ footer{
     h2{
         font-size: 28px;
     }
+    nav{
+        padding-top: 40px;
+    }
     .container{
         width: 90%;
         margin: auto;
-    }
+    } 
     /* Navigation */
 
     .nav-links a{
@@ -360,7 +366,7 @@ footer{
 
     /* Access files sectio */
     .access-anywhere{
-        padding-top: 15%;
+        padding-top: 10%;
     }
     .access-files{
         padding-bottom: 30px;
