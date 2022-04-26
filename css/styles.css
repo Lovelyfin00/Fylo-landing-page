@@ -215,3 +215,14 @@ input[type="email"]{
     background: -webkit-linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
     color: white;
 }
+footer{
+    background-color: hsl(216, 53%, 9%);
+    text-align: center;
+    color:white;
+}
+.nav-links2{
+        color: white;
+        text-decoration: underline;
+        list-style: none;
+
+}
